@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <title>Concepción del Uruguay - Contacto</title>
+</head>
+
+<body class="body">
+    <header class="header">
+        <a href="../index.html">
+            <img class="logo" src="../recursos/logo.png" alt="Logo CDU">
+        </a>
+        <nav class="nav">
+            <ul>
+                <!--(li>a)*5 se va a armar una lista de 5 bloques-->
+                <li> <a href="../index.html">Historia</a> </li>
+                <li> <a href="./donde-estamos.html">Donde estamos</a> </li>
+                <li> <a href="./actividades.html">Actividades</a> </li>
+                <li> <a href="./alojamientos.html">Alojamientos</a> </li>
+                <li> <a href="./multimedia.html">Multimedia</a> </li>
+                <li> <a href="./contacto.html">Contacto</a> </li>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h1 class="titulo">Contactanos</h1>
+
+        <!--FORMULARIO-->
+        <!-- method dentro de form get>>publico post>>privado, no se guardan los datos porque es sensible-->
+        <section class="contacto-flex">
+            <section id="formulario">
+                <form action="?" method="get">
+                    <label>Nombre completo</label>
+                    <br>
+                    <input type="text" placeholder="nombre completo" name="identidad">
+                    <br><br>
+                    <label>Email (*)</label>
+                    <br>
+                    <input type="email" placeholder="email" required>
+                    <br><br>
+                    <label>Telefono</label>
+                    <br>
+                    <input type="number" placeholder="caracteristica" size="10">
+                    <input type="number" placeholder="telefono" size="30">
+                    <br><br>
+                    <label>Tu mensaje</label>
+                    <br>
+                    <input type="text" placeholder="escribe tu mensaje (maximo 400 caracteres)" maxlength="400"
+                        size="50">
+                    <br><br>
+                    <label>¿Primera vez que nos visitas?</label>
+                    <br>
+                    <label>Sí</label>
+                    <input type="radio" name="primera-visita" value="si" />
+                    <br>
+                    <label>No</label>
+                    <input type="radio" name="primera-visita" value="no" />
+                    <br><br>
+                    <input type="submit" class="enviar">
+                </form>
+            </section>
+            <section>
+                <img src="../recursos/imagen-aerea-cdu.webp" alt="Concepción del Uruguay vista aerea" id="imagen-form">
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-txt">Concepción del Uruguay - Entre Ríos - Argentina</p>
+        <p class="footer-txt">Esta página no es oficial ni responde a una entidad gubernamental.</p>
+        <p class="footer-txt">®Todos los derechos reservados</p>
+    </footer>
+</body>
+
+</html>

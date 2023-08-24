@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,700;1,300&family=Preahvihear&display=swap');
+
+
+/*IDs y Clases generales*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.body {
+    background-color: #a34141;
+}
+
+.header {
+    position: sticky;
+    top: 0%;
+    background-color: #ffffff;
+}
+
+.nav {
+    text-transform: uppercase;
+    width: 100%;
+    background-color:#1639aa
+}
+
+.nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav li {
+    width: 15%;
+    text-align: center;
+    background-color: #738ee6;
+    margin-left: 3px;
+    border-radius: 10%;
+    margin: 10px 0px;
+}
+
+.nav a {
+    font-family: 'Preahvihear', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav li:hover{
+    background-color: #a34141;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.nav a:hover{
+    background-color: #a34141;
+    color: #ffffff;
+    font-weight: 800;
+    
+}
+
+.logo {
+    width: 200px;
+}
+
+.titulo {
+    font-family: 'Preahvihear', sans-serif;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.footer {
+    font-family: 'Nunito', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-txt {
+    margin-top: 1px;
+}
+
+/*IDs y Clases Index*/
+
+.texto {
+    color: #ffffff;
+    font-style: italic;
+    width: 40%;
+    margin-left: 30px;
+}
+
+#historia {
+    display: flex;
+}
+
+#portada {
+    width: 700px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+#conjunto-miniatura {
+    margin-left: 10px;
+}
+
+.miniatura {
+    width: 231px;
+    height: 120px;
+}
+
+/*IDs y Clases Donde estamos*/
+
+#donde-estamos {
+    display: inline-flex;
+
+}
+
+.tarjeta-donde-estamos {
+    display: block;
+    width: auto;
+    height: auto;
+    background-color: rgb(22, 57, 170);
+    color: #ffffff;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 3px;
+}
+
+#mapa-cdu {
+    width: 98vw;
+    height: 400px;
+    margin-left: 4px;
+    border-radius: 5px;
+}
+
+/*IDs y Clases Actividades*/
+
+#trj-actividades {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.actividad {
+    background-color: #1639aa;
+    color: #ffffff;
+    width: 500px;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.txt-actividad {
+    width: 60%;
+    float: left;
+    margin-bottom: 0.2em;
+}
+
+.img-actividad {
+    height: 80%;
+    float: right;
+}
+
+/*IDs y Clases Alojamientos*/
+
+#alojamientos-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#trj-alojamientos {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 50vw;
+
+}
+
+.alojamientos {
+    background-color: #1639aa;
+    color: #ffffff;
+    width: 22vw;
+    height: 100px;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.txt-alojamientos {
+    width: 60%;
+    float: left;
+    margin-bottom: 0.1em;
+    font-size: 18px;
+}
+
+.txt-direccionaloj {
+    font-size: 10px;
+    float: left;
+}
+
+.img-alojamientos {
+    height: 80%;
+    float: right;
+}
+
+#mapa-alojamientos {
+    width: 500px;
+    height: 350px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+/*IDs y Clases Contacto*/
+
+.contacto-flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#formulario {
+    color: #ffffff;
+}
+
+#imagen-form {
+    height: 75%;
+    width: auto;
+}
+
+.enviar:hover{
+    background-color: #1639aa;
+    color: #ffffff;
+}
+
+/*Grid Multimedia*/
+
+.grid-area {
+    margin: 2px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-areas:
+        "uno uno uno"
+        "cuatro dos tres"
+        "cuatro cinco seis"
+        "siete ocho nueve"
+        "catorce catorce catorce"
+        "diez doce trece"
+        "once once once"
+    ;
+    grid-template-rows: repeat(7, 300px);
+    align-content: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.grid-area div {
+    background-color: #1639aa;
+    border: 1px solid #1639aa;
+    margin: 2px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.uno {
+    grid-area: uno;
+}
+
+.dos {
+    grid-area: dos;
+}
+
+.tres {
+    grid-area: tres;
+}
+
+.cuatro {
+    grid-area: cuatro;
+}
+
+.cinco {
+    grid-area: cinco;
+}
+
+.seis {
+    grid-area: seis;
+}
+
+.siete {
+    grid-area: siete;
+}
+
+.ocho {
+    grid-area: ocho;
+}
+
+.nueve {
+    grid-area: nueve;
+}
+
+.diez {
+    grid-area: diez;
+}
+
+.once {
+    grid-area: once;
+}
+
+.doce {
+    grid-area: doce;
+}
+
+.trece {
+    grid-area: trece;
+}
+
+.catorce {
+    grid-area: catorce;
+}
