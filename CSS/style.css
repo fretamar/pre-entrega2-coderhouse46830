@@ -321,3 +321,59 @@
 .catorce {
     grid-area: catorce;
 }
+
+.uno:hover {
+    transform: scale(1.05);
+}
+
+.dos:hover {
+    transform: scale(1.05);
+}
+
+.tres:hover {
+    transform: scale(1.05);
+}
+
+.cuatro:hover {
+    transform: scale(1.05);
+}
+
+.cinco:hover {
+    transform: scale(1.05);
+}
+
+.seis:hover {
+    transform: scale(1.05);
+}
+
+.siete:hover {
+    transform: scale(1.05);
+}
+
+.ocho:hover {
+    transform: scale(1.05);
+}
+
+.nueve:hover {
+    transform: scale(1.05);
+}
+
+.diez:hover {
+    transform: scale(1.05);
+}
+
+.once:hover {
+    transform: scale(1.05);
+}
+
+.doce:hover {
+    transform: scale(1.05);
+}
+
+.trece:hover {
+    transform: scale(1.05);
+}
+
+.catorce:hover {
+    transform: scale(1.05);
+}
