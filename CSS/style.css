@@ -18,50 +18,10 @@
     background-color: #ffffff;
 }
 
-.nav {
-    text-transform: uppercase;
-    width: 100%;
-    background-color:#1639aa;
-}
-
-.nav ul {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.nav li {
-    width: 15%;
-    text-align: center;
-    background-color: #738ee6;
-    margin-left: 3px;
-    border-radius: 10%;
-    margin: 10px 0px;
-    font-size: 15px;
-}
-.nav a {
+.nav-link{
     font-family: 'Preahvihear', sans-serif;
-    color: #ffffff;
+    color: #965050;
     text-decoration: none;
-}
-
-.nav li:hover{
-    background-color: #a34141;
-    color: #ffffff;
-    font-weight: 400;
-}
-
-.nav a:hover{
-    background-color: #a34141;
-    color: #ffffff;
-    font-weight: 800;
-    
-}
-
-.logo {
-    width: 200px;
 }
 
 .titulo {
@@ -75,10 +35,16 @@
     background-color: #000000;
     color: #ffffff;
     text-align: center;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-txt {
-    margin-top: 1px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 /*IDs y Clases Index*/
@@ -113,7 +79,6 @@
 
 #donde-estamos {
     display: inline-flex;
-
 }
 
 .tarjeta-donde-estamos {
@@ -177,7 +142,6 @@
     justify-content: space-around;
     flex-wrap: wrap;
     width: 50vw;
-
 }
 
 .alojamientos {
@@ -232,7 +196,7 @@
     width: auto;
 }
 
-.enviar:hover{
+.enviar:hover {
     background-color: #1639aa;
     color: #ffffff;
 }
