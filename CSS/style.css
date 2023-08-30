@@ -132,12 +132,12 @@
 
 /*IDs y Clases Alojamientos*/
 
-#alojamientos-flex {
+.alojamientos-flex {
     display: flex;
     justify-content: space-evenly;
 }
 
-#trj-alojamientos {
+.trj-alojamientos {
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -172,7 +172,7 @@
     float: right;
 }
 
-#mapa-alojamientos {
+.mapa-alojamientos {
     width: 500px;
     height: 350px;
     margin: 7px;
@@ -192,8 +192,13 @@
 }
 
 .imagen-form {
-    height: 75%;
-    width: auto;
+    width: 40%;
+    height: auto;  
+    margin-bottom: 5px;
+}
+
+.boton-enviar-form{
+    margin-bottom: 5px;
 }
 
 .enviar:hover {
@@ -382,20 +387,41 @@
     
     .miniatura {
         margin-bottom: 3px;
+        margin-left: 0px;
     }
 
-    .footer-txt{
-        font-size: 80%;
-   }
+    .imagen-form{
+        width: 70%;
+        height: auto;
+        margin: 5px 0px 5px 0px;
+    }  
+    
+    .contacto-flex{
+        margin-left: 20px;
+    }
 
-.contacto-flex{
-    margin-left: 20px;
-}
+    .alojamientos-flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
 
-.imagen-form{
-    width: 70%;
-    height: auto;
-    margin: 5px 0px 5px 0px;
-}
+    .trj-alojamientos{
+        align-items: center;
+    }
 
+    .alojamientos{
+        width: 300px;
+        height: 120px;
+    }
+
+    .img-alojamientos{
+        width: 30%;
+        height: auto;
+    }
+    
+    .mapa-alojamientos{
+        width: 100%;
+        height: 400px;
+    }
 }
